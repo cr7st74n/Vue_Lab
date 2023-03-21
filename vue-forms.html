@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Forms</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>Hello Vue Forms</h1>
+
+        <label for="name"> Please enter your name:</label> <br>
+        <input v-model="name" id="name">
+        <p v-if="name">your name is {{name}}
+            <button v-on:click="clearText">clear Text</button>
+        </p>
+        <p v-else>
+            waiting for the user...
+        </p>
+
+    </div>
+
+
+     <script src="./app/app-2.js"></script>  
+</body>
+</html>

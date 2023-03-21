@@ -1,0 +1,15 @@
+*{
+    background-color: bisque;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+td, th, table{
+    width: 30%;
+    text-align:center ;
+    border: 1px solid green;
+}

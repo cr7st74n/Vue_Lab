@@ -4,35 +4,17 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)  
 
 ## About
-In this project introduce one of the most important front end frameworks, and some of the basic componets of Vue.js
+In this project introduce one of the most important front end frameworks, and some of the basic componets of Vue.js . We also include some questions about this framework.
 
 ### Table of Contents
  * [About](#About)
 
- * [Criteria](#Criteria)
-
- * [Installation](#Installation)
-
- * [Usage](#Usage)
+  * [Questions](#Questions)
 
  * [License](#License)
 
  * [Deployment](#Deployment)
 
- * [Tests](#Tests)
-
- * [Questions](#Questions)
-
-
-
-## Criteria
-
-
-## Installation
-n.a
-
-## Usage
-n.a
 
 ## License
 Apache 2.0 License
@@ -40,10 +22,13 @@ Apache 2.0 License
 ## Deployment
 Cristian Gonzalez
 
-## Tests
-3
-
 ## Questions
+ 2.Property ... was accessed during render but is not defined on instance.
+
+In my experience, I would say that Vue is warning us about a property that we are trying to use in our html file, but we do not have defined in our script, That happened to me when I spelled the name wrong, so it did not detected in the html file.
+ 
+ 3. Using Vue developer tools, 5 points
+
  
 
 https://github.com/cr7st74n
