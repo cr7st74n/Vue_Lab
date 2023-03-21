@@ -12,12 +12,17 @@
 <body>
     <div id="app">
         <h1>Hello Vue</h1>
-        <p>{{message}}</p>
+        <p>Original Message {{message}}</p>
+
+        <p>Added Exclamation Points {{messageWithExcPoint}}</p>
 
         <br>
         <h2>{{name}}</h2>
 
         <button v-on:click="addExclamation"> Add !</button>
+        <br>
+        <button v-on:click="ClearExclamation"> Clear</button>
+
     </div>
 
 
