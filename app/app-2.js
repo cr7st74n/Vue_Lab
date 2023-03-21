@@ -5,7 +5,7 @@ const app = Vue.createApp({
         }
     },
     methods:{
-        clearText2(){
+        clearText(){
             this.name = ""
         }
 
